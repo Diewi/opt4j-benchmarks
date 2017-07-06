@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Opt4J Benchmarks
+Bundle-SymbolicName: org.opt4j.benchmarks;singleton:=true
+Bundle-Version: 2.11.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: fortiss GmbH
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: org.opt4j.benchmarks.Opt4JBenchmarkActivator
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.9.100";visibility:=reexport
+Export-Package: org.opt4j.benchmarks,
+ org.opt4j.benchmarks.dtlz,
+ org.opt4j.benchmarks.knapsack,
+ org.opt4j.benchmarks.lotz,
+ org.opt4j.benchmarks.queens,
+ org.opt4j.benchmarks.wfg,
+ org.opt4j.benchmarks.zdt
